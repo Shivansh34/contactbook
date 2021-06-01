@@ -1,5 +1,8 @@
 # Contactbook
 
+To start the application use command npm start on project root.
+> The server runs on port 5000 by default so all requests should be made to http://localhost:5000/
+
 The app has CRUD APIs for contacts of a user and create options for a user.
 
 To create a user sent a POST request to /profile/create with the body as 
