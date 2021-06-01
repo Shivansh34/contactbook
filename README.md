@@ -22,7 +22,7 @@ To update contact sent a POST request to private/contacts/update with the body a
   
 {
 
-  "contactid":*the _id parameter received on querying the database*,
+  	"contactid":*the _id parameter received on querying the database*,
 	"name":*Name*,
 	"email":*email*,
 	"phonenumber":*Phone number*,
@@ -33,7 +33,7 @@ To update contact sent a POST request to private/contacts/update with the body a
 To delete a contact send POST request to private/contacts/delete with the body as->
 {
 
-  "contactid":*the _id parameter received on querying the database*,
+ 	"contactid":*the _id parameter received on querying the database*,
   
 }
   
@@ -42,13 +42,13 @@ the search queries limit themselves to 10 results per operations.
 to perform search operations with name send a POST request to private/contacts/search/name with the body as->
 {
 
-  "name":*search parameters*,
+ 	"name":*search parameters*,
   
 }
   
 to perform search operations with email send a POST request to private/contacts/search/email with the body as->
 {
 
-  "email":*search parameters*,
+ 	"email":*search parameters*,
   
 }
