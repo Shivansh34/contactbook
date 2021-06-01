@@ -2,7 +2,15 @@
 
 The app has CRUD APIs for contacts of a user and create options for a user.
 
-All POST request to perform CRUD operations must have basic authentication headers of user.
+To create a user sent a POST request to /profile/create with the body as 
+{
+
+	"username":*username*,
+	"password":*password*,
+
+}
+
+All POST request to perform CRUD operations must have basic authentication headers of user use('username:"Shivansh",'password':"pass") for tests.
 
 To create a contact send a POST request to private/contacts/create, and the body should have a json format of
 
